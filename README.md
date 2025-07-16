@@ -458,19 +458,6 @@ Authorization:
 - File: app/Http/Middleware/CheckRole.php (baris 16-30)
 - Demo: Dynamic role-based middleware protection
 
-Pertanyaan Umum Dosen & Jawaban
-
-Q: "Bagaimana menangani relasi many-to-many?"
-A: Menggunakan tabel pivot enrollments dengan Laravel belongsToMany relationship
-
-Q: "Keamanan file upload?"
-A: Validation tipe file, size limit 2MB, email uniqueness check, password hashing
-
-Q: "Authorization multi-level?"
-A: Dynamic middleware CheckRole + route grouping + blade template conditionals
-
-Q: "Performance N+1 problem?"
-A: Eager loading dengan with() method dan proper database indexing
 
 Testing Checklist
 
